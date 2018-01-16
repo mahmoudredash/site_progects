@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="mytest">
+<head>
+	<title>Testprogect</title>
+	<link rel="stylesheet" href="/home/mahmoud/Templates/progect/site/testprogect/view/css/style.css">
+	<link rel="stylesheet" href="/home/mahmoud/Templates/progect/site/testprogect/view/css/bootstrap.min.css">
+	<script type="text/javascript" src="/home/mahmoud/Templates/progect/site/testprogect/view/js/angular.js"></script>
+	<script type="text/javascript" src="/home/mahmoud/Templates/progect/site/testprogect/view/js/controler.js"></script>
+
+</head>
+<body>
+	<header id="header" class="badge-pill ">
+<br/><br/>
+		<h1 class=" txlog mx-lg-auto col-lg-12 text-success ">TEST PROGECT UONET TESTAR</h1>
+	</header>
+<br/><br/><br/>
+	<table id="utr" class="table table-dark table-hover">
+		<caption>Data from Database</caption>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>FName</th>
+				<th>Lname</th>
+				<th>Age</th>
+				<th>Salary</th>
+				<th>Department</th>
+				<th>data</th>
+				<th>header</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>data</td>
+				
+			</tr>
+		</tbody>
+	</table>
+	<div class="navbar-toggleable-xl" ng-controller="getdata">
+		<div>
+			<h3>{{myData}}</h3>
+		</div>
+	</div>
+	<footer  class="text-warning  text-center card-footer ">
+		Test For site
+	</footer>
+	
+</body>
+</html>
